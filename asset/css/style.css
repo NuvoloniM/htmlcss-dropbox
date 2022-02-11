@@ -156,9 +156,12 @@ img {
 }
 
 .card {
-  width: calc(100% / 3 - 60px);
+  width: calc(100% / 3 - 20px);
   border: 1px solid #ececed;
-  height: 100%;
+}
+
+.card-mid {
+  margin: 0 30px;
 }
 
 .card-title {

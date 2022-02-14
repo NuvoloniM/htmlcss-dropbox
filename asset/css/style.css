@@ -1,3 +1,5 @@
+@import url("https://fonts.googleapis.com/css2?family=Lato&display=swap");
+
 * {
   margin: 0;
   padding: 0;
@@ -5,6 +7,11 @@
 }
 
 /* General */
+
+html {
+  font-family: "Lato", sans-serif;
+}
+
 li {
   list-style: none;
 }
@@ -42,6 +49,11 @@ img {
   padding: 10px 20px;
 }
 
+.btn-block {
+  display: block;
+  text-align: center;
+}
+
 .btn-blu {
   background-color: #0061ff;
   color: #fff;
@@ -77,6 +89,7 @@ img {
 /* header */
 .main-header {
   position: fixed;
+  top: 0;
   padding: 20px 0;
   background-color: #fff;
   width: 100%;
@@ -150,7 +163,8 @@ img {
   margin-top: 80px;
 }
 
-.business-title {
+.business-title,
+.drop-opt-title {
   font-size: 1.5em;
   padding: 30px 0;
 }
@@ -176,11 +190,13 @@ img {
 
 .card-body {
   padding: 20px 30px 100px;
+  min-height: 1023px;
 }
 
 .card-body h3,
 .foot-card h3,
-.partners-text h3 {
+.partners-text h3,
+.opt-card h3 {
   font-size: 24px;
   padding-bottom: 20px;
 }
@@ -237,7 +253,7 @@ img {
 /* III Section: Float foto */
 
 .partners {
-  margin-top: 50px;
+  margin: 50px 0px;
 }
 
 .partners-img {
@@ -250,10 +266,27 @@ img {
   padding: 50px;
 }
 
-.partners-text p {
+.partners-text p,
+.opt-card p {
   line-height: 1.5em;
 }
 
 .partners-btn {
   margin-top: 30px;
+}
+
+/* IV Section: Dropbox Option */
+
+.opt-card {
+  width: calc(100% / 3 - 20px);
+  padding: 50px 0;
+}
+
+.opt-card a {
+  text-decoration: underline;
+}
+
+.opt-card a:hover {
+  text-decoration: none;
+  color: #a2d39b;
 }

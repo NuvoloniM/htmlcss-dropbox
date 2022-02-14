@@ -91,6 +91,11 @@ img {
   color: #a2d39b;
 }
 
+.bg-black {
+  background-color: #000;
+  color: #fff;
+}
+
 /* header */
 .main-header {
   position: fixed;
@@ -368,5 +373,52 @@ img {
 
 .partners-row-2-title {
   padding: 100px 100px 100px 0px;
-  font-weight: bolder;
+}
+
+/* Section VI Domande Frequenti */
+
+.ask {
+  margin-bottom: 50px;
+}
+
+.ask-row {
+  border-bottom: 1px solid #c3c9ce;
+}
+
+.ask h3 {
+  font-size: 1.3em;
+  padding: 50px 0;
+  border-bottom: 1px solid #c3c9ce;
+}
+
+.ask h5 {
+  padding: 30px 0;
+  width: 80%;
+}
+
+.angle-down {
+  display: inline-block;
+  text-align: right;
+  padding: 30px 0;
+  width: 20%;
+}
+
+/* Footer  */
+
+.row-foot {
+  padding: 50px 100px;
+}
+
+.foot-column {
+  padding-right: 40px;
+}
+
+.foot-column h4 {
+  padding: 20px 0;
+}
+
+.foot-column li a {
+  color: #fff;
+  line-height: 1.5em;
+  font-size: 0.9em;
 }

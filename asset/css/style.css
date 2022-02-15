@@ -474,6 +474,18 @@ img {
   width: 20%;
 }
 
+.none {
+  font-size: 0.8em;
+  font-style: italic;
+  color: #a7abae;
+  padding-bottom: 20px;
+  display: none;
+}
+
+.angle-down:hover + .none {
+  display: block;
+}
+
 /* Footer  */
 
 .row-foot {

@@ -103,6 +103,7 @@ img {
   padding: 20px 0;
   background-color: #fff;
   width: 100%;
+  z-index: 900;
 }
 
 .navbar a {

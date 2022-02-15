@@ -474,6 +474,10 @@ img {
   width: 20%;
 }
 
+.angle-down i {
+  transition: transform 0.5s ease;
+}
+
 .none {
   font-size: 0.8em;
   font-style: italic;
@@ -484,6 +488,10 @@ img {
 
 .angle-down:hover + .none {
   display: block;
+}
+
+.angle-down:hover i {
+  transform: rotate(180deg);
 }
 
 /* Footer  */

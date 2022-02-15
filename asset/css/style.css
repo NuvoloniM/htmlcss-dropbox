@@ -333,26 +333,64 @@ img {
   background-color: #a2d39b;
 }
 
+.bg-a:hover {
+  border: 10px outset #d0e9cd;
+}
+
 .bg-b {
   background-color: #61082b;
 }
+
+.bg-b:hover {
+  border: 10px outset #5c444e;
+}
+
 .bg-c {
   background-color: #0093ce;
 }
+
+.bg-c:hover {
+  border: 10px outset #52a6c7;
+}
+
 .bg-d {
   background-color: #ff1c1c;
 }
+
+.bg-d:hover {
+  border: 10px outset #f58686;
+}
+
 .bg-e {
   background-color: #d5001f;
 }
+
+.bg-e:hover {
+  border: 10px outset #cb5c6d;
+}
+
 .bg-f {
   background-color: #b4d0e7;
 }
+
+.bg-f:hover {
+  border: 10px outset #d8dee3;
+}
+
 .bg-g {
   background-color: #0d2481;
 }
+
+.bg-g:hover {
+  border: 10px outset #47527e;
+}
+
 .bg-h {
   background-color: #ffd830;
+}
+
+.bg-h:hover {
+  border: 10px outset #f2e3a2;
 }
 
 .partners-column-mid {
